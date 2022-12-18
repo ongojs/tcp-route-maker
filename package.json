@@ -1,0 +1,37 @@
+{
+  "name": "@ongojs/tcp-route-maker",
+  "version": "0.0.0",
+  "description": "tcp-route-maker",
+  "main": "index.js",
+  "bin": {
+    "tcp-route-maker": "bin/index.js"
+  },
+  "directories": {
+    "doc": "docs",
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ongojs/tcp-route-maker.git"
+  },
+  "keywords": [
+    "tcp-route-maker",
+    "transform"
+  ],
+  "author": "Ericson S. Weah <ericson.weah@gmail.com> (https://www.ericsonweah.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ongojs/tcp-route-maker/issues"
+  },
+  "homepage": "https://github.com/ongojs/tcp-route-maker#readme",
+  "dependencies": {
+    "@ongojs/controller": "file:../controller",
+    "@ongojs/lib": "file:../lib",
+    "dotenv": "16.0.3",
+    "socket.io-redis": "6.1.1"
+  }
+}
